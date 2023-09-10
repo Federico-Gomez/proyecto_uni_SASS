@@ -1,0 +1,39 @@
+/*tipografías + variables + extend*/
+@import './assets/typography';
+@import './assets/colors';
+@import './assets/extend';
+@import './assets/reset';
+/*para variables de bootstrap*/
+@import './assets/bootstrap_customizado';
+
+@import './sections/inicio';
+@import './sections/header';
+@import './sections/main-index';
+@import './sections/footer';
+
+@import './sections/campus-header';
+@import './sections/campus-main-index';
+@import './sections/campus-footer';
+
+
+@import './sections/institucional-header';
+@import './sections/institucional-main-index';
+@import './sections/institucional-footer';
+
+
+@import './sections/facultades-header';
+@import './sections/facultades-main-index';
+@import './sections/facultades-footer';
+
+@import './sections/posgrados-header';
+@import './sections/posgrados-main-index';
+@import './sections/posgrados-footer';
+
+/*siempre al final*/
+@import './assets/media_queries';
+
+/*bootstrap*/
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+

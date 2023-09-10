@@ -1,0 +1,143 @@
+@media (max-width: 550px) {
+    .body {
+        display: block;
+    }
+
+    .header .titulo img {
+        display: none;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul form input {
+        display: none;
+    }
+
+    .navbar ul form button {
+        display: none;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        padding: 20px;
+    }
+
+    h2 {
+        padding: 20px;
+    }
+
+    h3 {
+        padding: 20px;
+    }
+
+    h4 {
+        padding: 20px;
+    }
+
+    p {
+        padding: 20px;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .campus {
+        p {
+            max-width: 480px;
+            margin: auto;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        img {
+            max-width: 480px;
+            margin: auto;
+        }
+
+        .actividades {
+            max-width: 480px;
+            margin: auto;
+
+            .accordion-body img {
+                width: 450px;
+
+            }
+        }
+
+        .eventos {
+            max-width: 480px;
+            margin: auto;
+        }
+    }
+
+    .facultades {
+        .becas_video {
+            padding: 20px;
+
+            iframe {
+                width: 440px;
+                height: 280px;
+            }
+        }
+
+    }
+
+    .institucional {
+        .main-index img {
+            max-width: 480px;
+            height: auto;
+        }
+
+        .grid-container {
+            display: block;
+
+            .link {
+                display: flex;
+                flex-direction: column;
+                height: 300px;
+            }
+
+            .contacto {
+                display: block;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .posgrados {
+        .main-index {
+            .reconocimiento {
+                .imagen {
+                    display: none;
+                }
+
+                p {
+                    color: rgb(29, 29, 117);
+                    background-color: white;
+                }
+            }
+
+            .numeros1 {
+                padding-bottom: 0;
+            }
+
+            .numeros2 {
+                font-size: 26px;
+                padding-top: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.main-index {
+    h1 {
+        color: rgb(29, 29, 117);
+        padding: 40px;
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgb(29, 29, 117);
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    .carousel-inner {
+        width: auto;
+        h5 {
+            font-size: 50px;
+            color: white;
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        p {
+            font-size: 34px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+
+    .video {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 20px;
+        justify-content: space-around;
+        max-width: 1024px;
+        margin: auto;
+
+        .video-text {
+            width: 560px;
+            color: rgb(29, 29, 117);
+            padding-right: 80px;
+        }
+
+        iframe {
+            height: auto;
+            width: 50vw;
+            border-radius: 20px;
+        }
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            max-width: 1024px;
+            margin: auto;
+            
+
+            a {
+                height: 150px;
+            }
+
+            img {
+                height: 90%;
+            }
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 400;
+            color: rgb(29, 29, 117);
+        }
+    }
+}

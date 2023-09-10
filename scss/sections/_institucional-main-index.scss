@@ -1,0 +1,70 @@
+.institucional {
+
+    .main-index {
+        .institucional_img {
+            width: 100%;
+            padding-bottom: 30px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 250px 250px 350px;
+            grid-template-rows: 520px 100px;
+            gap: 60px;
+            padding: 20px;
+            grid-template-areas:
+                "descriptivo descriptivo contacto"
+                "link link contacto";
+
+            h2 {
+                font-size: 28px;
+            }
+
+            width: 950px;
+            margin: auto;
+
+            .descriptivo {
+                grid-area: descriptivo;
+                font-weight: 400;
+                font-family: sans-serif;
+                font-size: 20px;
+                padding: 10px;
+                color: rgb(29, 29, 117);
+                width: 550px;
+            }
+
+            .link {
+                grid-area: link;
+                text-align: center;
+                display: block;
+                justify-content: space-around;
+
+                a {
+                    grid-area: link;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 10px;
+                    background-color: rgb(0, 61, 165);
+                    color: white;
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    padding: 20px;
+                }
+            }
+
+            .contacto {
+                grid-area: contacto;
+                font-size: 20px;
+            }
+        }
+        .organismos{
+            width: 950px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-bottom: 40px;
+
+        }
+    }
+}

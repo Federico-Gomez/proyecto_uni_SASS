@@ -264,7 +264,10 @@
 }
 .institucional .main-index .grid-container .contacto {
   grid-area: contacto;
-  font-size: 20px;
+  font-size: 18px;
+}
+.institucional .main-index .grid-container .contacto .form-floating {
+  max-width: 250px;
 }
 .institucional .main-index .organismos {
   width: 950px;

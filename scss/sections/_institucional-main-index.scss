@@ -64,10 +64,59 @@
             width: 950px;
             margin: auto;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
+            justify-content: space-between;
             padding-bottom: 40px;
-
+            .cards_uno{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: 20px;
+            }
+            .cards_uno :hover{
+                transform: scale(1.1);
+                transition: .2s;
+                .card-body{
+                    transform: none;
+                    .card-title{
+                        transform: none;
+                    }
+                    .card-text{
+                        transform: none;
+                    }
+                }
+                
+                img{
+                    transform: none;
+                }
+            }
+            .cards_dos{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-bottom: 20px;
+            }
+            .cards_dos :hover{
+                transform: scale(1.1);
+                transition: .2s;
+                .card-body{
+                    transform: none;
+                    .card-title{
+                        transform: none;
+                    }
+                    .card-text{
+                        transform: none;
+                    }
+                }
+                img{
+                    transform: none;
+                }
+            }
+            .btn{
+                background: $azul_1;
+                border-color: $azul_1;
+            }
         }
     }
 }

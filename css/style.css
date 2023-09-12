@@ -56,6 +56,8 @@
   background-color: white;
   color: rgb(0, 61, 165);
   border-radius: 10px;
+  transform: scale(1.2);
+  transition: 0.4s;
 }
 
 .main-index h1, .main-index .h1 {
@@ -273,9 +275,58 @@
   width: 950px;
   margin: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-bottom: 40px;
+}
+.institucional .main-index .organismos .cards_uno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.institucional .main-index .organismos .cards_uno :hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.institucional .main-index .organismos .cards_uno :hover .card-body {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_uno :hover .card-body .card-title {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_uno :hover .card-body .card-text {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_uno :hover img {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_dos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.institucional .main-index .organismos .cards_dos :hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.institucional .main-index .organismos .cards_dos :hover .card-body {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_dos :hover .card-body .card-title {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_dos :hover .card-body .card-text {
+  transform: none;
+}
+.institucional .main-index .organismos .cards_dos :hover img {
+  transform: none;
+}
+.institucional .main-index .organismos .btn {
+  background: rgb(0, 61, 165);
+  border-color: rgb(0, 61, 165);
 }
 
 .facultades .main-index h1, .facultades .main-index .h1 {

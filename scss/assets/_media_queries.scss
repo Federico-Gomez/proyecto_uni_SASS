@@ -1,143 +1,290 @@
 @media (max-width: 550px) {
     .body {
         display: block;
-    }
 
-    .header .titulo img {
-        display: none;
-    }
-
-    .navbar ul {
-        flex-direction: column;
-    }
-
-    .navbar ul form input {
-        display: none;
-    }
-
-    .navbar ul form button {
-        display: none;
-    }
-
-    .video {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    h1 {
-        padding: 20px;
-    }
-
-    h2 {
-        padding: 20px;
-    }
-
-    h3 {
-        padding: 20px;
-    }
-
-    h4 {
-        padding: 20px;
-    }
-
-    p {
-        padding: 20px;
-    }
-
-    .redes {
-        display: none;
-    }
-
-    .footer {
-        padding: 20px;
-    }
-
-    .campus {
-        p {
-            max-width: 480px;
-            margin: auto;
-            padding: 20px;
-            font-size: 16px;
+        .header .titulo img {
+            display: none;
         }
 
-        img {
-            max-width: 480px;
-            margin: auto;
-        }
+        .navbar ul {
+            flex-direction: column;
 
-        .actividades {
-            max-width: 480px;
-            margin: auto;
+            form input {
+                display: none;
+            }
 
-            .accordion-body img {
-                width: 450px;
-
+            form button {
+                display: none;
             }
         }
 
-        .eventos {
-            max-width: 480px;
+
+        .main-index {
             margin: auto;
-        }
-    }
 
-    .facultades {
-        .becas_video {
-            padding: 20px;
-
-            iframe {
-                width: 440px;
-                height: 280px;
-            }
-        }
-
-    }
-
-    .institucional {
-        .main-index img {
-            max-width: 480px;
-            height: auto;
-        }
-
-        .grid-container {
-            display: block;
-
-            .link {
+            .video {
                 display: flex;
                 flex-direction: column;
-                height: 300px;
-            }
-
-            .contacto {
-                display: block;
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-        }
-    }
-
-    .posgrados {
-        .main-index {
-            .reconocimiento {
-                .imagen {
-                    display: none;
-                }
+                flex-wrap: wrap;
+                max-width: 480px;
+                margin: auto;
 
                 p {
-                    color: rgb(29, 29, 117);
-                    background-color: white;
+                    font-size: 20px;
+                }
+
+                iframe {
+                    width: 460px;
+                    height: 260px;
                 }
             }
 
-            .numeros1 {
-                padding-bottom: 0;
+            h1 {
+                padding: 20px;
+                margin: auto;
             }
 
-            .numeros2 {
-                font-size: 26px;
-                padding-top: 0;
+            h2 {
+                padding: 20px;
+            }
+
+            h3 {
+                padding: 20px;
+            }
+
+            h4 {
+                padding: 20px;
+            }
+
+            p {
+                padding: 20px;
+            }
+
+            .redes {
+                max-width: 480px;
+                margin: auto;
+            }
+
+            .footer {
+                padding: 20px;
+            }
+
+        }
+
+
+
+        .campus {
+            p {
+                max-width: 480px;
+                margin: auto;
+                padding: 20px;
+                font-size: 20px;
+            }
+
+            img {
+                max-width: 480px;
+                margin: auto;
+            }
+
+            .actividades {
+                max-width: 480px;
+                margin: auto;
+
+                .accordion-body img {
+                    width: 450px;
+
+                }
+            }
+
+            .eventos {
+                max-width: 480px;
+                margin: auto;
+            }
+        }
+
+        .facultades {
+            .becas {
+                .becas_video {
+                    padding: 20px;
+                    max-width: 480px;
+
+                    p {
+                        font-size: 20px;
+                    }
+
+                    iframe {
+
+                        height: 280px;
+                    }
+                }
+
+                .accordion {
+                    max-width: 480px;
+                    padding: 20px;
+                }
+            }
+
+            .ciencias_nat {
+                max-width: 480px;
+                padding: 10px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .ciencias_soc {
+                max-width: 480px;
+                padding: 10px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .arquitectura {
+                max-width: 480px;
+                padding: 10px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .institucional {
+            .main-index {
+                .grid-container {
+                    max-width: 480px;
+                    margin: auto;
+                    display: grid;
+                    grid-template-columns: 480px;
+                    grid-template-rows: 620px 200px 720px;
+                    padding: 20px;
+                    grid-template-areas:
+                        "descriptivo"
+                        "link"
+                        "contacto";
+
+                    .descriptivo {
+                        max-width: 460px;
+                        margin: auto;
+                        font-size: 18px;
+                    }
+
+                    .link {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        height: 280px;
+                        max-width: 480px;
+                        margin: auto;
+
+                        a {
+                            width: 380px;
+                        }
+
+                    }
+
+                    .contacto {
+                        max-width: 480px;
+                        margin: auto;
+                        display: block;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+
+                        .form-floating {
+                            width: 350px;
+                        }
+                    }
+                }
+
+                .organismos {
+                    max-width: 480px;
+                    padding: 10px;
+                    margin: auto;
+
+                    .cards_uno {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        max-width: 480px;
+                        margin: auto;
+                        padding-bottom: 20px;
+                    }
+
+                    .cards_dos {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        max-width: 480px;
+                        margin: auto;
+                        padding-bottom: 20px;
+                        justify-content: space-between;
+                    }
+                }
+
+            }
+
+        }
+
+        .posgrados {
+            .main-index {
+                h2 {
+                    max-width: 480px;
+                    margin: auto;
+                }
+
+                .reconocimiento {
+                    .imagen {
+                        display: none;
+                    }
+
+                    p {
+                        color: $azul_1;
+                        background-color: $blanco;
+                        max-width: 480px;
+                    }
+                }
+
+                .doctorado {
+                    max-width: 480px;
+                    margin: auto;
+                }
+
+                .maestria {
+                    max-width: 480px;
+                    margin: auto;
+                }
+
+                .especializacion {
+                    max-width: 480px;
+                    margin: auto;
+                }
+
+                .numeros {
+                    max-width: 480px;
+                    margin: auto;
+
+                    .numeros1 {
+                        max-width: 480px;
+                        margin: auto;
+                        padding-bottom: 0;
+                    }
+
+                    .numeros2 {
+                        max-width: 480px;
+                        margin: auto;
+                        font-size: 26px;
+                        padding-top: 0;
+                    }
+                }
+
+
             }
         }
     }
+
+
 }

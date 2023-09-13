@@ -29,11 +29,11 @@
 @import './sections/posgrados-main-index';
 @import './sections/posgrados-footer';
 
-/*siempre al final*/
-@import './assets/media_queries';
-
 /*bootstrap*/
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+/*siempre al final*/
+@import './assets/media_queries';
 
 
 

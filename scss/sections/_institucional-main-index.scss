@@ -68,7 +68,12 @@
             flex-wrap: wrap;
             justify-content: space-between;
             padding-bottom: 40px;
+            
             .cards_uno{
+                .card{
+                    width: 18rem;
+    
+                }
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -92,6 +97,11 @@
                 }
             }
             .cards_dos{
+                .card{
+                    width: 18rem;
+                    
+    
+                }
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;

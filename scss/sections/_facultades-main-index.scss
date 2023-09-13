@@ -48,7 +48,6 @@
                 flex-direction: row;
                 text-align: left;
                 font-family: sans-serif;
-                font-size: 24px;
                 padding-bottom: 40px;
                 justify-content: space-between;
 
@@ -66,6 +65,9 @@
             }
 
             .accordion {
+                .accordion-header{
+                    padding: 10px;
+                }
 
                 .accordion-button {
                     font-size: 26px;
@@ -113,7 +115,7 @@
             p {
                 font-size: 24px;
                 padding-top: 10px;
-                padding-bottom: 10px;
+                padding-bottom: 40px;
             }
         }
 

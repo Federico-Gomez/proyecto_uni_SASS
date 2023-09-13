@@ -286,6 +286,9 @@
   justify-content: space-between;
   padding-bottom: 20px;
 }
+.institucional .main-index .organismos .cards_uno .card {
+  width: 18rem;
+}
 .institucional .main-index .organismos .cards_uno :hover {
   transform: scale(1.1);
   transition: 0.2s;
@@ -307,6 +310,9 @@
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 20px;
+}
+.institucional .main-index .organismos .cards_dos .card {
+  width: 18rem;
 }
 .institucional .main-index .organismos .cards_dos :hover {
   transform: scale(1.1);
@@ -369,7 +375,6 @@
   flex-direction: row;
   text-align: left;
   font-family: sans-serif;
-  font-size: 24px;
   padding-bottom: 40px;
   justify-content: space-between;
 }
@@ -382,6 +387,9 @@
 .facultades .main-index .becas .becas_video iframe {
   border-radius: 20px;
   width: 520px;
+}
+.facultades .main-index .becas .accordion .accordion-header {
+  padding: 10px;
 }
 .facultades .main-index .becas .accordion .accordion-button {
   font-size: 26px;
@@ -420,7 +428,7 @@
 .facultades .main-index .ciencias_soc p {
   font-size: 24px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 .facultades .main-index .arquitectura {
   width: 950px;
@@ -577,109 +585,6 @@
   font-size: 32px;
 }
 
-/*siempre al final*/
-@media (max-width: 550px) {
-  .body {
-    display: block;
-  }
-  .header .titulo img {
-    display: none;
-  }
-  .navbar ul {
-    flex-direction: column;
-  }
-  .navbar ul form input {
-    display: none;
-  }
-  .navbar ul form button {
-    display: none;
-  }
-  .video {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  h1, .h1 {
-    padding: 20px;
-  }
-  h2, .h2 {
-    padding: 20px;
-  }
-  h3, .h3 {
-    padding: 20px;
-  }
-  h4, .h4 {
-    padding: 20px;
-  }
-  p {
-    padding: 20px;
-  }
-  .redes {
-    display: none;
-  }
-  .footer {
-    padding: 20px;
-  }
-  .campus p {
-    max-width: 480px;
-    margin: auto;
-    padding: 20px;
-    font-size: 16px;
-  }
-  .campus img {
-    max-width: 480px;
-    margin: auto;
-  }
-  .campus .actividades {
-    max-width: 480px;
-    margin: auto;
-  }
-  .campus .actividades .accordion-body img {
-    width: 450px;
-  }
-  .campus .eventos {
-    max-width: 480px;
-    margin: auto;
-  }
-  .facultades .becas_video {
-    padding: 20px;
-  }
-  .facultades .becas_video iframe {
-    width: 440px;
-    height: 280px;
-  }
-  .institucional .main-index img {
-    max-width: 480px;
-    height: auto;
-  }
-  .institucional .grid-container {
-    display: block;
-  }
-  .institucional .grid-container .link {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-  }
-  .institucional .grid-container .contacto {
-    display: block;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .posgrados .main-index .reconocimiento .imagen {
-    display: none;
-  }
-  .posgrados .main-index .reconocimiento p {
-    color: rgb(29, 29, 117);
-    background-color: white;
-  }
-  .posgrados .main-index .numeros1 {
-    padding-bottom: 0;
-  }
-  .posgrados .main-index .numeros2 {
-    font-size: 26px;
-    padding-top: 0;
-  }
-}
 /*bootstrap*/
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
@@ -12530,5 +12435,215 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+/*siempre al final*/
+@media (max-width: 550px) {
+  .body {
+    display: block;
+  }
+  .body .header .titulo img {
+    display: none;
+  }
+  .body .navbar ul {
+    flex-direction: column;
+  }
+  .body .navbar ul form input {
+    display: none;
+  }
+  .body .navbar ul form button {
+    display: none;
+  }
+  .body .main-index {
+    margin: auto;
+  }
+  .body .main-index .video {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .main-index .video p {
+    font-size: 20px;
+  }
+  .body .main-index .video iframe {
+    width: 460px;
+    height: 260px;
+  }
+  .body .main-index h1, .body .main-index .h1 {
+    padding: 20px;
+    margin: auto;
+  }
+  .body .main-index h2, .body .main-index .h2 {
+    padding: 20px;
+  }
+  .body .main-index h3, .body .main-index .h3 {
+    padding: 20px;
+  }
+  .body .main-index h4, .body .main-index .h4 {
+    padding: 20px;
+  }
+  .body .main-index p {
+    padding: 20px;
+  }
+  .body .main-index .redes {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .main-index .footer {
+    padding: 20px;
+  }
+  .body .campus p {
+    max-width: 480px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .body .campus img {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .campus .actividades {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .campus .actividades .accordion-body img {
+    width: 450px;
+  }
+  .body .campus .eventos {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .facultades .becas .becas_video {
+    padding: 20px;
+    max-width: 480px;
+  }
+  .body .facultades .becas .becas_video p {
+    font-size: 20px;
+  }
+  .body .facultades .becas .becas_video iframe {
+    height: 280px;
+  }
+  .body .facultades .becas .accordion {
+    max-width: 480px;
+    padding: 20px;
+  }
+  .body .facultades .ciencias_nat {
+    max-width: 480px;
+    padding: 10px;
+  }
+  .body .facultades .ciencias_nat p {
+    font-size: 20px;
+  }
+  .body .facultades .ciencias_soc {
+    max-width: 480px;
+    padding: 10px;
+  }
+  .body .facultades .ciencias_soc p {
+    font-size: 20px;
+  }
+  .body .facultades .arquitectura {
+    max-width: 480px;
+    padding: 10px;
+  }
+  .body .facultades .arquitectura p {
+    font-size: 20px;
+  }
+  .body .institucional .main-index .grid-container {
+    max-width: 480px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 480px;
+    grid-template-rows: 620px 200px 720px;
+    padding: 20px;
+    grid-template-areas: "descriptivo" "link" "contacto";
+  }
+  .body .institucional .main-index .grid-container .descriptivo {
+    max-width: 460px;
+    margin: auto;
+    font-size: 18px;
+  }
+  .body .institucional .main-index .grid-container .link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 280px;
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .institucional .main-index .grid-container .link a {
+    width: 380px;
+  }
+  .body .institucional .main-index .grid-container .contacto {
+    max-width: 480px;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .body .institucional .main-index .grid-container .contacto .form-floating {
+    width: 350px;
+  }
+  .body .institucional .main-index .organismos {
+    max-width: 480px;
+    padding: 10px;
+    margin: auto;
+  }
+  .body .institucional .main-index .organismos .cards_uno {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 480px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .body .institucional .main-index .organismos .cards_dos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 480px;
+    margin: auto;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+  .body .posgrados .main-index h2, .body .posgrados .main-index .h2 {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .reconocimiento .imagen {
+    display: none;
+  }
+  .body .posgrados .main-index .reconocimiento p {
+    color: rgb(0, 61, 165);
+    background-color: rgb(255, 255, 255);
+    max-width: 480px;
+  }
+  .body .posgrados .main-index .doctorado {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .maestria {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .especializacion {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .numeros {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .numeros .numeros1 {
+    max-width: 480px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+  .body .posgrados .main-index .numeros .numeros2 {
+    max-width: 480px;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 0;
   }
 }/*# sourceMappingURL=style.css.map */

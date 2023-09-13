@@ -14,8 +14,15 @@
         margin: auto;
     }
 
+    .carousel-indicators {
+        button {
+            background-color: black;
+        }
+    }
+
     .carousel-inner {
         width: auto;
+
         h5 {
             font-size: 50px;
             color: white;
@@ -32,6 +39,17 @@
             font-weight: 600;
             color: white;
         }
+
+        #c-item-1 {
+            a {
+                color: black;
+            }
+
+            p {
+                color: black;
+            }
+        }
+
     }
 
     .video {
@@ -64,7 +82,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        
+
 
         div {
             display: flex;
@@ -72,7 +90,7 @@
             justify-content: space-around;
             max-width: 1024px;
             margin: auto;
-            
+
 
             a {
                 height: 150px;

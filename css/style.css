@@ -73,6 +73,9 @@
   max-width: 1024px;
   margin: auto;
 }
+.main-index .carousel-indicators button {
+  background-color: black;
+}
 .main-index .carousel-inner {
   width: auto;
 }
@@ -89,6 +92,12 @@
   font-size: 34px;
   font-weight: 600;
   color: white;
+}
+.main-index .carousel-inner #c-item-1 a {
+  color: black;
+}
+.main-index .carousel-inner #c-item-1 p {
+  color: black;
 }
 .main-index .video {
   display: flex;
@@ -12438,12 +12447,9 @@ textarea.form-control-lg {
   }
 }
 /*siempre al final*/
-@media (max-width: 550px) {
+@media (max-width: 750px) {
   .body {
     display: block;
-  }
-  .body .header .titulo img {
-    display: none;
   }
   .body .navbar ul {
     flex-direction: column;
@@ -12457,6 +12463,279 @@ textarea.form-control-lg {
   .body .main-index {
     margin: auto;
   }
+  .body .main-index .carousel .carousel-indicators button {
+    background-color: black;
+    color: black;
+  }
+  .body .main-index .carousel .carousel-inner #c-item-1 a {
+    color: rgb(255, 255, 255);
+  }
+  .body .main-index .carousel .carousel-inner #c-item-1 p {
+    color: rgb(255, 255, 255);
+  }
+  .body .main-index .carousel .carousel-inner .carousel-item .carousel-caption a {
+    font-size: 28px;
+  }
+  .body .main-index .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 24px;
+  }
+  .body .main-index .video {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 720px;
+    margin: auto;
+  }
+  .body .main-index .video p {
+    max-width: 350px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .body .main-index .video iframe {
+    width: 350px;
+    height: 240px;
+  }
+  .body .main-index h1, .body .main-index .h1 {
+    padding: 20px;
+    margin: auto;
+  }
+  .body .main-index h2, .body .main-index .h2 {
+    padding: 20px;
+  }
+  .body .main-index h3, .body .main-index .h3 {
+    padding: 20px;
+  }
+  .body .main-index h4, .body .main-index .h4 {
+    padding: 20px;
+  }
+  .body .main-index p {
+    padding: 20px;
+  }
+  .body .main-index .redes {
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .main-index .footer {
+    padding: 20px;
+  }
+  .body .campus .main-index .campus_img {
+    max-width: 100%;
+  }
+  .body .campus p {
+    max-width: 720px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .body .campus .actividades {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .campus .actividades .accordion-body img {
+    width: 640px;
+  }
+  .body .campus .eventos {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .facultades .carousel .carousel-indicators button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }
+  .body .facultades .becas .becas_video {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 720px;
+  }
+  .body .facultades .becas .becas_video p {
+    max-width: 300px;
+    font-size: 18px;
+    padding: 0px;
+  }
+  .body .facultades .becas .becas_video iframe {
+    max-width: 360px;
+    height: 240px;
+  }
+  .body .facultades .becas .accordion {
+    max-width: 720px;
+    padding: 20px;
+  }
+  .body .facultades .ciencias_nat {
+    max-width: 680px;
+    padding: 10px;
+  }
+  .body .facultades .ciencias_nat p {
+    font-size: 20px;
+  }
+  .body .facultades .ciencias_soc {
+    max-width: 680px;
+    padding: 10px;
+  }
+  .body .facultades .ciencias_soc p {
+    font-size: 20px;
+  }
+  .body .facultades .arquitectura {
+    max-width: 680px;
+    padding: 10px;
+  }
+  .body .facultades .arquitectura p {
+    font-size: 20px;
+  }
+  .body .institucional .main-index .grid-container {
+    max-width: 680px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 680px;
+    grid-template-rows: 540px 200px 720px;
+    padding: 20px;
+    grid-template-areas: "descriptivo" "link" "contacto";
+  }
+  .body .institucional .main-index .grid-container .descriptivo {
+    max-width: 680px;
+    margin: auto;
+    font-size: 18px;
+  }
+  .body .institucional .main-index .grid-container .link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 280px;
+    max-width: 480px;
+    margin: auto;
+  }
+  .body .institucional .main-index .grid-container .link a {
+    width: 480px;
+  }
+  .body .institucional .main-index .grid-container .contacto {
+    max-width: 680px;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .body .institucional .main-index .grid-container .contacto .form-floating {
+    width: 350px;
+  }
+  .body .institucional .main-index .organismos {
+    max-width: 680px;
+    padding: 10px;
+    margin: auto;
+  }
+  .body .institucional .main-index .organismos .cards_uno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .body .institucional .main-index .organismos .cards_uno .card {
+    width: 13.5rem;
+  }
+  .body .institucional .main-index .organismos .cards_dos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .body .institucional .main-index .organismos .cards_dos .card {
+    width: 13.5rem;
+  }
+  .body .posgrados .main-index h2, .body .posgrados .main-index .h2 {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .carousel .carousel-indicators button {
+    background-color: black;
+    color: black;
+  }
+  .body .posgrados .main-index .carousel .carousel-item .carousel-caption a {
+    position: absolute;
+    right: 0;
+    bottom: 1.25rem;
+    left: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+  }
+  .body .posgrados .main-index .reconocimiento .imagen {
+    display: none;
+  }
+  .body .posgrados .main-index .reconocimiento p {
+    color: rgb(0, 61, 165);
+    background-color: rgb(255, 255, 255);
+    max-width: 680px;
+  }
+  .body .posgrados .main-index .doctorado {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .maestria {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .especializacion {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .numeros {
+    max-width: 680px;
+    margin: auto;
+  }
+  .body .posgrados .main-index .numeros .numeros1 {
+    max-width: 580px;
+    margin: auto;
+    padding-bottom: 0;
+  }
+  .body .posgrados .main-index .numeros .numeros2 {
+    max-width: 580px;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 0;
+  }
+  .body .posgrados .main-index .redes {
+    max-width: 680px;
+    margin: auto;
+  }
+}
+@media (max-width: 550px) {
+  .body {
+    display: block;
+  }
+  .body .navbar ul {
+    flex-direction: column;
+  }
+  .body .navbar ul form input {
+    display: none;
+  }
+  .body .navbar ul form button {
+    display: none;
+  }
+  .body .main-index {
+    margin: auto;
+  }
+  .body .main-index .carousel .carousel-indicators button {
+    background-color: black;
+    color: black;
+  }
+  .body .main-index .carousel .carousel-inner #c-item-1 a {
+    color: rgb(255, 255, 255);
+  }
+  .body .main-index .carousel .carousel-inner #c-item-1 p {
+    color: rgb(255, 255, 255);
+  }
+  .body .main-index .carousel .carousel-inner .carousel-item .carousel-caption a {
+    font-size: 20px;
+  }
+  .body .main-index .carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+  }
   .body .main-index .video {
     display: flex;
     flex-direction: column;
@@ -12465,7 +12744,10 @@ textarea.form-control-lg {
     margin: auto;
   }
   .body .main-index .video p {
+    max-width: 460px;
     font-size: 20px;
+    align-content: center;
+    padding: 10px;
   }
   .body .main-index .video iframe {
     width: 460px;
@@ -12514,6 +12796,10 @@ textarea.form-control-lg {
   .body .campus .eventos {
     max-width: 480px;
     margin: auto;
+  }
+  .body .facultades .carousel .carousel-indicators button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
   .body .facultades .becas .becas_video {
     padding: 20px;
@@ -12610,6 +12896,21 @@ textarea.form-control-lg {
   .body .posgrados .main-index h2, .body .posgrados .main-index .h2 {
     max-width: 480px;
     margin: auto;
+  }
+  .body .posgrados .main-index .carousel .carousel-indicators button {
+    background-color: black;
+    color: black;
+  }
+  .body .posgrados .main-index .carousel .carousel-item .carousel-caption a {
+    position: absolute;
+    right: 0;
+    bottom: 1.25rem;
+    left: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
   }
   .body .posgrados .main-index .reconocimiento .imagen {
     display: none;

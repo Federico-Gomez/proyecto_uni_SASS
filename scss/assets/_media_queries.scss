@@ -1,10 +1,6 @@
-@media (max-width: 550px) {
+@media (max-width: 750px) {
     .body {
         display: block;
-
-        .header .titulo img {
-            display: none;
-        }
 
         .navbar ul {
             flex-direction: column;
@@ -22,6 +18,439 @@
         .main-index {
             margin: auto;
 
+            .carousel {
+                .carousel-indicators {
+                    button {
+                        background-color: black;
+                        color: black;
+                    }
+                }
+
+                .carousel-inner {
+                    #c-item-1 {
+                        a {
+                            color: $blanco;
+                        }
+
+                        p {
+                            color: $blanco;
+                        }
+                    }
+
+                    .carousel-item {
+
+
+                        .carousel-caption {
+
+
+                            a {
+                                font-size: 28px;
+                            }
+
+
+                            p {
+                                font-size: 24px;
+
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+            .video {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                max-width: 720px;
+                margin: auto;
+
+                p {
+                    max-width: 350px;
+                    font-size: 16px;
+                    padding: 10px;
+                }
+
+                iframe {
+                    width: 350px;
+                    height: 240px;
+                }
+            }
+
+            h1 {
+                padding: 20px;
+                margin: auto;
+            }
+
+            h2 {
+                padding: 20px;
+            }
+
+            h3 {
+                padding: 20px;
+            }
+
+            h4 {
+                padding: 20px;
+            }
+
+            p {
+                padding: 20px;
+            }
+
+            .redes {
+                max-width: 480px;
+                margin: auto;
+            }
+
+            .footer {
+                padding: 20px;
+            }
+
+        }
+
+
+
+        .campus {
+            .main-index{
+                .campus_img{
+                max-width: 100%;
+                
+            }
+            }
+            
+            p {
+                max-width: 720px;
+                margin: auto;
+                padding: 20px;
+                font-size: 20px;
+            }
+
+            
+
+            .actividades {
+                max-width: 680px;
+                margin: auto;
+
+                .accordion-body img {
+                    width: 640px;
+
+                }
+            }
+
+            .eventos {
+                max-width: 680px;
+                margin: auto;
+            }
+        }
+
+        .facultades {
+            .carousel {
+                .carousel-indicators {
+                    button {
+                        background-color: $blanco;
+                        color: $blanco;
+                    }
+                }
+            }
+
+            .becas {
+                .becas_video {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    padding: 20px;
+                    max-width: 720px;
+
+                    p {
+                        max-width: 300px;
+                        font-size: 18px;
+                        padding: 0px;
+                    }
+
+                    iframe {
+                        max-width: 360px;
+                        height: 240px;
+                    }
+                }
+
+                .accordion {
+                    max-width: 720px;
+                    padding: 20px;
+                }
+            }
+
+            .ciencias_nat {
+                max-width: 680px;
+                padding: 10px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .ciencias_soc {
+                max-width: 680px;
+                padding: 10px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .arquitectura {
+                max-width: 680px;
+                padding: 10px;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .institucional {
+            .main-index {
+                .grid-container {
+                    max-width: 680px;
+                    margin: auto;
+                    display: grid;
+                    grid-template-columns: 680px;
+                    grid-template-rows: 540px 200px 720px;
+                    padding: 20px;
+                    grid-template-areas:
+                        "descriptivo"
+                        "link"
+                        "contacto";
+
+                    .descriptivo {
+                        max-width: 680px;
+                        margin: auto;
+                        font-size: 18px;
+                    }
+
+                    .link {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        height: 280px;
+                        max-width: 480px;
+                        margin: auto;
+
+                        a {
+                            width: 480px;
+                        }
+
+                    }
+
+                    .contacto {
+                        max-width: 680px;
+                        margin: auto;
+                        display: block;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+
+                        .form-floating {
+                            width: 350px;
+                        }
+                    }
+                }
+
+                .organismos {
+                    max-width: 680px;
+                    padding: 10px;
+                    margin: auto;
+
+                    .cards_uno {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        max-width: 750px;
+                        margin: auto;
+                        padding-bottom: 20px;
+                        .card{
+                            width: 13.5rem;
+            
+                        }
+                    }
+
+                    .cards_dos {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        max-width: 750px;
+                        margin: auto;
+                        padding-bottom: 20px;
+                        .card{
+                            width: 13.5rem;
+            
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        .posgrados {
+            .main-index {
+                
+                h2 {
+                    max-width: 680px;
+                    margin: auto;
+                }
+
+                .carousel {
+                    
+                    
+                    .carousel-indicators {
+                        button {
+                            background-color: black;
+                            color: black;
+                        }
+                    }
+
+                    .carousel-item {
+
+
+                        .carousel-caption {
+
+                            a {
+                                position: absolute;
+                                right: 0;
+                                bottom: 1.25rem;
+                                left: 0;
+                                padding-top: 1.25rem;
+                                padding-bottom: 1.25rem;
+                                color: #fff;
+                                text-align: center;
+                                font-size: 30px;
+                            }
+
+                        }
+
+                    }
+                }
+
+                .reconocimiento {
+                    .imagen {
+                        display: none;
+                    }
+
+                    p {
+                        color: $azul_1;
+                        background-color: $blanco;
+                        max-width: 680px;
+                    }
+                }
+
+                .doctorado {
+                    max-width: 680px;
+                    margin: auto;
+                }
+
+                .maestria {
+                    max-width: 680px;
+                    margin: auto;
+                }
+
+                .especializacion {
+                    max-width: 680px;
+                    margin: auto;
+                }
+
+                .numeros {
+                    max-width: 680px;
+                    margin: auto;
+
+                    .numeros1 {
+                        max-width: 580px;
+                        margin: auto;
+                        padding-bottom: 0;
+                    }
+
+                    .numeros2 {
+                        max-width: 580px;
+                        margin: auto;
+                        font-size: 26px;
+                        padding-top: 0;
+                    }
+                }
+                .redes{
+                    max-width: 680px;
+                    margin: auto;
+                }
+
+
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .body {
+        display: block;
+
+        
+
+        .navbar ul {
+            flex-direction: column;
+
+            form input {
+                display: none;
+            }
+
+            form button {
+                display: none;
+            }
+        }
+
+
+        .main-index {
+            margin: auto;
+
+            .carousel {
+                .carousel-indicators {
+                    button {
+                        background-color: black;
+                        color: black;
+                    }
+                }
+
+                .carousel-inner {
+                    #c-item-1 {
+                        a {
+                            color: $blanco;
+                        }
+
+                        p {
+                            color: $blanco;
+                        }
+                    }
+
+                    .carousel-item {
+
+
+                        .carousel-caption {
+
+
+                            a {
+                                font-size: 20px;
+                            }
+
+
+                            p {
+                                font-size: 16px;
+
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
             .video {
                 display: flex;
                 flex-direction: column;
@@ -30,7 +459,10 @@
                 margin: auto;
 
                 p {
+                    max-width: 460px;
                     font-size: 20px;
+                    align-content: center;
+                    padding: 10px;
                 }
 
                 iframe {
@@ -103,6 +535,15 @@
         }
 
         .facultades {
+            .carousel {
+                .carousel-indicators {
+                    button {
+                        background-color: $blanco;
+                        color: $blanco;
+                    }
+                }
+            }
+
             .becas {
                 .becas_video {
                     padding: 20px;
@@ -234,6 +675,36 @@
                 h2 {
                     max-width: 480px;
                     margin: auto;
+                }
+
+                .carousel {
+                    .carousel-indicators {
+                        button {
+                            background-color: black;
+                            color: black;
+                        }
+                    }
+
+                    .carousel-item {
+
+
+                        .carousel-caption {
+
+                            a {
+                                position: absolute;
+                                right: 0;
+                                bottom: 1.25rem;
+                                left: 0;
+                                padding-top: 1.25rem;
+                                padding-bottom: 1.25rem;
+                                color: #fff;
+                                text-align: center;
+                                font-size: 30px;
+                            }
+
+                        }
+
+                    }
                 }
 
                 .reconocimiento {

@@ -1,4 +1,16 @@
 @media (max-width: 750px) {
+    .header nav {
+        li {
+            
+            a {
+                &:hover {
+                    transform: scale(1.05);
+                    transition: .4s;
+                }
+            }
+        }
+    }
+
     .body {
         display: block;
 
@@ -113,13 +125,13 @@
 
 
         .campus {
-            .main-index{
-                .campus_img{
-                max-width: 100%;
-                
+            .main-index {
+                .campus_img {
+                    max-width: 100%;
+
+                }
             }
-            }
-            
+
             p {
                 max-width: 720px;
                 margin: auto;
@@ -127,7 +139,7 @@
                 font-size: 20px;
             }
 
-            
+
 
             .actividades {
                 max-width: 680px;
@@ -269,9 +281,10 @@
                         max-width: 750px;
                         margin: auto;
                         padding-bottom: 20px;
-                        .card{
+
+                        .card {
                             width: 13.5rem;
-            
+
                         }
                     }
 
@@ -282,9 +295,10 @@
                         max-width: 750px;
                         margin: auto;
                         padding-bottom: 20px;
-                        .card{
+
+                        .card {
                             width: 13.5rem;
-            
+
                         }
                     }
                 }
@@ -295,15 +309,15 @@
 
         .posgrados {
             .main-index {
-                
+
                 h2 {
                     max-width: 680px;
                     margin: auto;
                 }
 
                 .carousel {
-                    
-                    
+
+
                     .carousel-indicators {
                         button {
                             background-color: black;
@@ -377,7 +391,8 @@
                         padding-top: 0;
                     }
                 }
-                .redes{
+
+                .redes {
                     max-width: 680px;
                     margin: auto;
                 }
@@ -392,7 +407,7 @@
     .body {
         display: block;
 
-        
+
 
         .navbar ul {
             flex-direction: column;

@@ -23,7 +23,7 @@
 .header nav .navbar-brand {
   font-size: 44px;
   background-color: rgb(0, 61, 165);
-  color: white;
+  color: rgb(255, 255, 255);
   padding-right: 40px;
 }
 .header nav .navbar-brand img {
@@ -12448,6 +12448,10 @@ textarea.form-control-lg {
 }
 /*siempre al final*/
 @media (max-width: 750px) {
+  .header nav li a:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
   .body {
     display: block;
   }

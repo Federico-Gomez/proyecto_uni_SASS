@@ -184,6 +184,7 @@
             }
 
             .becas {
+                max-width: 720px;
                 .becas_video {
                     display: flex;
                     flex-direction: row;
@@ -364,6 +365,7 @@
                 }
 
                 .reconocimiento {
+                    max-width: 720px;
                     .imagen {
                         display: none;
                     }
@@ -591,16 +593,18 @@
             }
 
             .becas {
+                max-width: 480px;
                 .becas_video {
                     padding: 20px;
                     max-width: 480px;
 
                     p {
                         font-size: 20px;
+                        max-width: 400px;
                     }
 
                     iframe {
-
+                        max-width: 400px;
                         height: 280px;
                     }
                 }
@@ -754,6 +758,7 @@
                 }
 
                 .reconocimiento {
+                    max-width: 480px;
                     .imagen {
                         display: none;
                     }
@@ -986,6 +991,7 @@
             }
 
             .becas {
+                max-width: 320px;
                 .becas_video {
                     padding: 20px;
                     max-width: 320px;
@@ -1159,6 +1165,7 @@
                 }
 
                 .reconocimiento {
+                    max-width: 320px;
                     .imagen {
                         display: none;
                     }

@@ -12595,6 +12595,9 @@ textarea.form-control-lg {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
   }
+  .body .facultades .becas {
+    max-width: 720px;
+  }
   .body .facultades .becas .becas_video {
     display: flex;
     flex-direction: row;
@@ -12716,6 +12719,9 @@ textarea.form-control-lg {
     color: #fff;
     text-align: center;
     font-size: 30px;
+  }
+  .body .posgrados .main-index .reconocimiento {
+    max-width: 720px;
   }
   .body .posgrados .main-index .reconocimiento .imagen {
     display: none;
@@ -12866,14 +12872,19 @@ textarea.form-control-lg {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
   }
+  .body .facultades .becas {
+    max-width: 480px;
+  }
   .body .facultades .becas .becas_video {
     padding: 20px;
     max-width: 480px;
   }
   .body .facultades .becas .becas_video p {
     font-size: 20px;
+    max-width: 400px;
   }
   .body .facultades .becas .becas_video iframe {
+    max-width: 400px;
     height: 280px;
   }
   .body .facultades .becas .accordion {
@@ -12976,6 +12987,9 @@ textarea.form-control-lg {
     color: #fff;
     text-align: center;
     font-size: 30px;
+  }
+  .body .posgrados .main-index .reconocimiento {
+    max-width: 480px;
   }
   .body .posgrados .main-index .reconocimiento .imagen {
     display: none;
@@ -13129,6 +13143,9 @@ textarea.form-control-lg {
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
   }
+  .body .facultades .becas {
+    max-width: 320px;
+  }
   .body .facultades .becas .becas_video {
     padding: 20px;
     max-width: 320px;
@@ -13247,6 +13264,9 @@ textarea.form-control-lg {
     color: #fff;
     text-align: center;
     font-size: 30px;
+  }
+  .body .posgrados .main-index .reconocimiento {
+    max-width: 320px;
   }
   .body .posgrados .main-index .reconocimiento .imagen {
     display: none;

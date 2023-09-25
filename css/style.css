@@ -156,6 +156,34 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.footer h3, .footer .h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.footer .footer-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  max-width: 1024px;
+  margin: auto;
+}
 
 .campus .main-index p {
   font-weight: 400;
@@ -512,6 +540,9 @@
   margin: auto;
   padding-bottom: 20px;
 }
+.posgrados .main-index .doctorado h2, .posgrados .main-index .doctorado .h2 {
+  font-weight: bold;
+}
 .posgrados .main-index .doctorado p {
   font-size: 20px;
   padding-top: 10px;
@@ -528,6 +559,9 @@
   margin: auto;
   padding-bottom: 20px;
 }
+.posgrados .main-index .maestria h2, .posgrados .main-index .maestria .h2 {
+  font-weight: bold;
+}
 .posgrados .main-index .maestria p {
   font-size: 20px;
   padding-top: 10px;
@@ -543,6 +577,9 @@
   width: 950px;
   margin: auto;
   padding-bottom: 20px;
+}
+.posgrados .main-index .especializacion h2, .posgrados .main-index .especializacion .h2 {
+  font-weight: bold;
 }
 .posgrados .main-index .especializacion p {
   font-size: 20px;
@@ -12519,8 +12556,20 @@ textarea.form-control-lg {
     max-width: 480px;
     margin: auto;
   }
-  .body .main-index .footer {
+  .body .footer {
     padding: 20px;
+  }
+  .body .footer h3, .body .footer .h3 {
+    font-size: 18px;
+  }
+  .body .footer .footer-list h3, .body .footer .footer-list .h3 {
+    font-size: 18px;
+  }
+  .body .footer .footer-list ul {
+    font-size: 18px;
+  }
+  .body .footer .copyright {
+    font-size: 18px;
   }
   .body .campus .main-index .campus_img {
     max-width: 100%;
@@ -12777,8 +12826,20 @@ textarea.form-control-lg {
     max-width: 480px;
     margin: auto;
   }
-  .body .main-index .footer {
+  .body .footer {
     padding: 20px;
+  }
+  .body .footer h3, .body .footer .h3 {
+    font-size: 16px;
+  }
+  .body .footer .footer-list h3, .body .footer .footer-list .h3 {
+    font-size: 16px;
+  }
+  .body .footer .footer-list ul {
+    font-size: 16px;
+  }
+  .body .footer .copyright {
+    font-size: 16px;
   }
   .body .campus p {
     max-width: 480px;
@@ -13025,9 +13086,20 @@ textarea.form-control-lg {
     width: 70%;
     height: auto;
   }
-  .body .main-index .footer {
-    padding: 20px;
-    font-size: 14px;
+  .body .footer {
+    padding: 10px;
+  }
+  .body .footer h3, .body .footer .h3 {
+    font-size: 12px;
+  }
+  .body .footer .footer-list h3, .body .footer .footer-list .h3 {
+    font-size: 12px;
+  }
+  .body .footer .footer-list ul {
+    font-size: 12px;
+  }
+  .body .footer .copyright {
+    font-size: 12px;
   }
   .body .campus p {
     max-width: 320px;

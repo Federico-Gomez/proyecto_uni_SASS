@@ -115,9 +115,25 @@
                 max-width: 480px;
                 margin: auto;
             }
+        }
 
-            .footer {
-                padding: 20px;
+        .footer {
+            padding: 20px;
+            h3{
+                font-size: 18px;
+            }
+
+            .footer-list {
+                h3 {
+                    font-size: 18px;
+                }
+                ul {
+                    font-size: 18px;
+                }
+
+            }
+            .copyright{
+                font-size: 18px;
             }
 
         }
@@ -511,9 +527,24 @@
                 max-width: 480px;
                 margin: auto;
             }
+        }
+        .footer {
+            padding: 20px;
+            h3{
+                font-size: 16px;
+            }
 
-            .footer {
-                padding: 20px;
+            .footer-list {
+                h3 {
+                    font-size: 16px;
+                }
+                ul {
+                    font-size: 16px;
+                }
+
+            }
+            .copyright{
+                font-size: 16px;
             }
 
         }
@@ -888,10 +919,24 @@
                     height: auto;
                 }
             }
+        }
+        .footer {
+            padding: 10px;
+            h3{
+                font-size: 12px;
+            }
 
-            .footer {
-                padding: 20px;
-                font-size: 14px;
+            .footer-list {
+                h3 {
+                    font-size: 12px;
+                }
+                ul {
+                    font-size: 12px;
+                }
+
+            }
+            .copyright{
+                font-size: 12px;
             }
 
         }
@@ -917,6 +962,7 @@
 
                 .accordion-body {
                     font-size: 14px;
+
                     img {
                         width: 300px;
                     }
@@ -1050,7 +1096,8 @@
                         max-width: 320px;
                         margin: auto;
                         padding-bottom: 20px;
-                        .card{
+
+                        .card {
                             margin-bottom: 30px;
                         }
                     }
@@ -1063,7 +1110,8 @@
                         margin: auto;
                         padding-bottom: 20px;
                         justify-content: space-between;
-                        .card{
+
+                        .card {
                             margin-bottom: 30px;
                         }
                     }
@@ -1128,7 +1176,8 @@
                     max-width: 320px;
                     margin: auto;
                     padding-bottom: 0;
-                    p{
+
+                    p {
                         font-size: 14px;
                     }
                 }
@@ -1137,7 +1186,8 @@
                     max-width: 320px;
                     margin: auto;
                     padding-bottom: 0;
-                    p{
+
+                    p {
                         font-size: 14px;
                     }
                 }
@@ -1146,7 +1196,8 @@
                     max-width: 320px;
                     margin: auto;
                     padding-bottom: 0;
-                    p{
+
+                    p {
                         font-size: 14px;
                     }
                 }
@@ -1159,7 +1210,8 @@
                         max-width: 320px;
                         margin: auto;
                         padding-bottom: 0;
-                        p{
+
+                        p {
                             font-size: 28px;
                         }
                     }
@@ -1168,7 +1220,8 @@
                         max-width: 320px;
                         margin: auto;
                         padding-top: 0;
-                        p{
+
+                        p {
                             font-size: 16px;
                         }
                     }
